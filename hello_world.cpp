@@ -1,8 +1,9 @@
 #include <iostream>
-using namespace std;  // Плохой стиль!
 
 int main() {
-    cout << "Hello world!" << endl;
-    return 0;
+	std::string name;
+	std::cout << "Enter your name: " << std::endl;
+	std::cin >> name;
+	std::cout << "Hello world from " << name << std::endl;
+	return 0;
 }
-
