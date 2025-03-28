@@ -1,12 +1,11 @@
-
 #include <iostream>
 
-int //body of main fucntion
+int // тело основной функции (main function body)
 main()
 {
-  std::string name; //creating the name
+  std::string name; // переменная имени (name variable)
   std::cout << "Enter your name: " << std::endl;
-  std::cin >> name;//entering the meaning of name
+  std::cin >> name; // Ввод переменной name (name input)
   std::cout << "Hello world from " << name << std::endl;
   return 0;
 }
